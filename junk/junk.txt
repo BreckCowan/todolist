@@ -1,0 +1,72 @@
+from original file weekday.html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1>It's a weekday!</h1>
+    <p>Why are you not working?</p>
+    <h1>It's a weekday!</h1>
+    <p>Why are you not working?</p>
+    <h1>It's a weekday!</h1>
+    <p>Why are you not working?</p>
+    <h1>It's a weekday!</h1>
+    <p>Why are you not working?</p>
+
+  </body>
+</html>
+
+from original file weekend.html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1>It's the weekend!</h1>
+    <p>Why are you working?</p>
+    <h1>It's the weekend!</h1>
+    <p>Why are you working?</p>
+    <h1>It's the weekend!</h1>
+    <p>Why are you working?</p>
+    <h1>It's the weekend!</h1>
+    <p>Why are you working?</p>
+
+  </body>
+</html>
+
+from original file app.js
+moved after switch statement to clean up file
+/*    on line 33 before the switch statement
+//moved block of code to bottome to move out of way for switch statement
+//adding the logic and where to send file responds
+
+//if statement
+
+  if (currentDay === 6 || currentDay === 0) {
+
+//adding in value of day variables if day is weekend
+
+    day = "Weekend";
+
+//responds sends weekend.html
+//use of render and ejs makes this an extra step - shortened the code
+//    res.sendFile(__dirname + "/weekend.html");
+
+//else statement
+
+  } else {
+
+//adding in value of day variable else day is weekday
+
+    day = "Weekday";
+
+//responds sends weekday.html
+//use of render and ejs make this not used - shortened the code
+//    res.sendFile(__dirname + "/weekday.html");
+
+  }
+*/
