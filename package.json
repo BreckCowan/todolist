@@ -1,12 +1,12 @@
 {
   "name": "todolist-v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple todo ejs template",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Breck Cowan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
